@@ -1,0 +1,23 @@
+{
+  "name": "testing-jsdom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "canvas": "^2.2.0",
+    "jest": "^23.6.0",
+    "jsdom": "^13.1.0"
+  },
+  "dependencies": {
+    "@types/jest": "^23.3.12",
+    "fabric": "^2.5.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
